@@ -15,7 +15,7 @@ const {
 
 const PagerViewAndroid = require("react-native-pager-view");
 const TimerMixin = require("react-timer-mixin");
-const PagerView = require("react-native-pager-view");
+import {PagerView} from 'react-native-pager-view';
 
 const SceneComponent = require("./SceneComponent");
 const DefaultTabBar = require("./DefaultTabBar");
